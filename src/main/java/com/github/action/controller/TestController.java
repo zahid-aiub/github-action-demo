@@ -12,4 +12,9 @@ public class TestController {
         return "Github action working ...";
     }
 
+    @GetMapping(value = "login")
+    public String login() {
+        return "Login action working ...";
+    }
+
 }
