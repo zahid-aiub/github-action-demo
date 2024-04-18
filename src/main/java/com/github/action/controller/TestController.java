@@ -14,6 +14,8 @@ public class TestController {
 
     @GetMapping(value = "login")
     public String login() {
+
+        int a = 10;
         return "Login action working ...";
     }
 
